@@ -1,0 +1,19 @@
+import java.util.*;
+class factorial {
+        public static  int number ( int num){
+            int fact = 0, fact1 = 0, fact2 = 0;
+            fact = num / 5;
+            fact1 = num / 25;
+            fact2 = num / 125;
+
+            return fact + fact1 + fact2;
+        }
+
+            public static void main(String args[]) {
+                Scanner sc = new Scanner(System.in);
+                int num = sc.nextInt();
+                int countzero= number(num);
+                System.out.println(countzero);
+
+    }
+}
